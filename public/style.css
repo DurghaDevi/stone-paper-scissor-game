@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #914AFB;
+    height: 100vh;
+    font-family: 'Barrio';
+    color: #dcff16;
+}
+h1{
+    font-weight: 800;
+}
+h3{
+    color: #dcff16;
+    font-size: 150px;
+    padding-top: 50px;
+}
+#choices{
+    height: 130px;
+    width: 390px; 
+    margin: 0 auto;
+}
+#choices img{
+    height: 130px;
+    width: 130px;
+}
+
+
+
+  
+
+
+@media only screen and (min-width: 992px) and (max-width: 1920px){
+    #content{
+        padding-top: 50px;
+    }
+    h1{
+        padding: 10px;
+        font-size: 80px;
+    }
+    h3{
+        color: #dcff16;
+        font-size: 90px;
+        padding-top: 100px;
+    }
+    #random, #player{
+        height: 300px;
+        width: 300px;
+    }
+    #choices{
+        padding-top: 60px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    #content{
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    h1{
+        padding: 30px;
+        font-size: 60px;
+    }
+    h3{
+        color: #dcff16;
+        font-size: 60px;
+        padding-top: 80px;
+    }
+    #random, #player{
+        height: 250px;
+        width: 250px;
+    }
+    #choices{
+        padding-top: 50px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    h1{
+        padding: 30px;
+        padding-bottom: 5px;
+        font-size: 35px;
+    }
+    h3{
+        padding-top: 20px;
+        font-size: 40px;
+        padding-bottom: 20px;
+    } 
+    #random, #player{
+        height: 160px;
+        width: 160px;
+        padding-bottom: 5px;
+    }
+    #choices{
+        height: 80px;
+        width: 240px; 
+        margin: 0 auto;
+    }
+    #choices img{
+        height: 80px;
+        width: 80px;
+    }
+}
+
+
+
+
+/* signup page styling*/
+
+.main {
+    margin-top: 70px;
+    padding: 20px;
+    box-shadow: 5px 5px 7px 5px #dcff16;
+    border-radius: 35px;
+}
+
+.main h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    font-size: 25px;
+    padding: 16px 20px;
+    color: #dcff16;
+    background-color: #914AFB;
+    margin: 10px 0;
+    outline: none;
+    border-bottom: solid 2px #dcff16;
+    border-radius: 10px;
+}
+
+
+input[type=submit] {
+    width: 100%;
+    background-color: #dcff16;
+    border: none;
+    color: #914AFB;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 10px;
+}
